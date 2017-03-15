@@ -1,0 +1,47 @@
+# Mongo Database Connection Credentials
+Database:
+  user:
+  password:
+  host: localhost
+  port: 27017
+  database: Rappay_db1
+  
+  
+# host where application is hosted or deployed
+
+Server:
+  host: localhost
+  port: 9000
+  
+
+# Credential to generate autheticate icici bank token
+
+ICICICredentials:
+     ParticipantAccessCode: ICIC7004 
+     ClientId: rohitp32@gmail.com
+      
+    
+    
+# Centeralized Status Messages for Server Responses
+StatusMessages:
+  alreadyExists: already exists
+  internalServer: internal server error
+  success: success
+  badRequest: bad request
+  noPermission: user does not have permission
+  notFound: not found
+  missingFields: missing fields in request
+  emptyFields: some required fields are empty
+  hoursError: you cannot enter more than 24 hours in a day
+  invalidTPCredentials: third party credentials are invalid
+  tpError: third party error
+  tokenMissing: no token provided
+  tokenExpired: your token has expired
+  tokenInvalid: your token is invalid
+  tokenError: token error
+  decodingError: error decoding the data
+  tokensNotExpired: user tokens have not expired
+  apiUsageError: unknown api usage
+  connectionError: connection error
+  connectionSuccess: connection success
+  invalidCredentials: invalid credentials
